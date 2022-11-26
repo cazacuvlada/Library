@@ -2,6 +2,7 @@
 
 @include '../php/config.php';
 
+
 if(isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -58,6 +59,9 @@ if(isset($_POST['submit'])) {
      </select>
         <input type="submit" name="submit" value="register now" class="form-btn">
         <p>Already have an account? <a href="login_form.php">login now</a></p>
+
+
+
     </form>
 </div>
 </body>

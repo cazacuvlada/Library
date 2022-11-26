@@ -56,6 +56,7 @@ if(isset($_POST['submit'])) {
             <input type="password" name="password" required placeholder="enter your password">
             <input type="submit" name="submit" value="register now" class="form-btn">
             <p>Don't have an account? <a href="register_form.php">Register now</a></p>
+            <a style="color:black; font-size:4vh;text-decoration:none;" href="../php/home_page.php">Online Book Shelf</a>
         </form>
     </div>
     </body>
